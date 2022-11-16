@@ -55,6 +55,6 @@ If you need any help with this, feel free to message me on Discord. BigSoulja#88
 
 If this helped you and you want to show appreciation, feel free to star this repository. Or even better, [buy me a coffee!](https://ko-fi.com/bigsoulja)
 
-##Credits:
+## Credits:
 
-[I5UCC](https://github.com/I5UCC) For [ThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) - Thank you.
+[I5UCC] (https://github.com/I5UCC) For [ThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) - Thank you.
