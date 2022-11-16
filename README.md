@@ -54,9 +54,9 @@ If you see neither of the above working, it probably means OSC isnt working. Che
 - Navigate to `AppData\LocalLow\VRChat\VRChat` and delete the **contents** of the OSC folder.
 - Restart VRChat and it should all work now.
 
-You can also **manually** immobilize yourself by turning off the 'Auto Immobilze Toggle' on the left, and just toggling the icon on the right manually yourself.
-
 ## Things to note/Drawbacks
+
+- You can also **manually** immobilize yourself by turning off the 'Auto Immobilze Toggle' on the left, and just toggling the icon on the right manually yourself.
 
 - This **IS** Quest Compatible, however you only need to add this to the PC variant of your avatar. It will show for Quest users too. It also shows for your fallback avatar, so you dont need to be quest compatible at all for these benefits. This will not work on Quest-only avatars however (unless you can find a way to trigger the `LeftThumbStick` parameter on Quest.)
 
