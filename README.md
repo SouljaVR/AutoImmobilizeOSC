@@ -62,6 +62,8 @@ If you see neither of the above working, it probably means OSC isnt working. Che
 
 - This is created for Write Defaults **OFF** however I don't see why this wouldnt work with them on. You can enable write defaults for all the states that come with this prefab and see what happens. Or if you want to trigger me just mix them with WD ON states lol.
 
+- Immobilization will not function on desktop. It **can**, but that is useless so I made it so it wont even if the toggles are on.
+
 - Immobilization may not work with *some* avatar setups if `Locomotion Animations` are enabled. But if you're using full-body, why would you use this anyway? You can disable this in the VRChat quick menu IK settings.
 
 - This **IS** Quest Compatible, however you only need to add this to the PC variant of your avatar. It will show for Quest users too. It also shows for your fallback avatar, so you dont need to be quest compatible at all for these benefits. This will not work on Quest-only avatars however (unless you can find a way to trigger the `LeftThumbStick` parameter on Quest.)
