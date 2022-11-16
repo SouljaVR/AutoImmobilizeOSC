@@ -33,7 +33,7 @@ You can use [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager)
 
 8. Enable OSC in VRChat (Open expressions wheel > Options > OSC > Enable OSC)
 
-## How to use/test if it works:
+## How to use/Test if it works:
 
 Enable the 'Auto Immobilize Toggle' on the left side of the menu. If it is working correctly, the immobilize icon on the right will toggle itself off when your finger rests on the joystick of your controller/joystick is moved. This allows your avatar to freely move around as normal. But you will be in an immobilized state when your finger is not touching/moving the left controller joystick.
 
