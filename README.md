@@ -25,6 +25,8 @@ You can use [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager)
 
 `immobilize` - Default State = False (Unsaved Parameter)
 
+There is also a parameters template in the package you can merge with your own.
+
 5. Add the 'AutoImmobilizeMainMenu' expression menu to your avatars menu.
 6. Avatar setup is done. Now you will need to download 'ThumbParamsOSC' by 'I5UCC'. [Download Here](https://github.com/I5UCC/VRCThumbParamsOSC)
 7. Ensure 'ThumbParamsOSC' is sending bools for the left joystick of your controller. It is not necessary to send any other parameters. Read the documentation for ThumbParamsOSC to see how to do this. By default, the app will work fine without extra configuration, but its better to only send necessary data over OSC to avoid hitting bandwidth limits. Especially necessary if using with other OSC applications.
