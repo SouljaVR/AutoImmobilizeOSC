@@ -63,4 +63,4 @@ If this helped you and you want to show appreciation, feel free to star this rep
 
 ## Credits:
 
-[I5UCC] (https://github.com/I5UCC) For [ThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) - Thank you.
+[I5UCC](https://github.com/I5UCC) For [ThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) - Thank you.
