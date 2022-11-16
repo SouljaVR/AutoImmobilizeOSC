@@ -47,6 +47,13 @@ If this is working, you should also check your avatar debug menu and ensure `Loc
 
 ![image](https://github.com/SouljaVR/AutoImmobilizeOSC/blob/main/Locomotion_test_ExampleOpti.gif)
 
+If you see neither of the above working, it probably means OSC isnt working. Check the OSC debug menu to confirm. If you aren't recieving signals from 'ThumbParamsOSC', Restart VRChat and try again. If it still isnt working, do the following:
+
+- Open 'Run' in Windows (Windows Key + R)
+- Type in `%AppData%`
+- Navigate to `AppData\LocalLow\VRChat\VRChat` and delete the **contents** of the OSC folder.
+- Restart VRChat and it should all work now.
+
 You can also **manually** immobilize yourself by turning off the 'Auto Immobilze Toggle' on the left, and just toggling the icon on the right manually yourself.
 
 ## Things to note/Drawbacks
