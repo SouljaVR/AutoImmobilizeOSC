@@ -33,7 +33,7 @@ You can use [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager)
 
 8. Enable OSC in VRChat (Open expressions wheel > Options > OSC > Enable OSC)
 
-## How to test if it works:
+## How to use/test if it works:
 
 Enable the 'Auto Immobilize Toggle' on the left side of the menu. If it is working correctly, the immobilize icon on the right will toggle itself off when your finger rests on the joystick of your controller/joystick is moved. This allows your avatar to freely move around as normal. But you will be in an immobilized state when your finger is not touching/moving the left controller joystick.
 
@@ -42,6 +42,8 @@ Enable the 'Auto Immobilize Toggle' on the left side of the menu. If it is worki
 If this is working, you should also check your avatar debug menu and ensure `Locomotion` is disabling itself when your finger is not moving/resting on the left controller joystick. If for some reason it isnt working like below, it may be conflicting with another system on your avatar that controls `VRC Animator Locomotion Control`. You can try moving the layers for my system right under the base layer on both controllers to fix this.
 
 ![image](https://github.com/SouljaVR/AutoImmobilizeOSC/blob/main/Locomotion_test_ExampleOpti.gif)
+
+You can also **manually* immobilize yourself by turning off the 'Auto Immobilze Toggle' on the left, and just toggling the icon on the right manually yourself.
 
 ##Things to note/Drawbacks
 
