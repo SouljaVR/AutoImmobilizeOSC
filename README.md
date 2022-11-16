@@ -52,3 +52,5 @@ If this is working, you should also check your avatar debug menu and ensure `Loc
 - You may modify the system and/or add it to any avatar including sold avatars, however you must leave my name in the submenu as it currently is. Please do not claim this as your own work.
 
 If you need any help with this, feel free to message me on Discord. BigSoulja#8888
+
+If this helped you and you want to show appreciation, feel free to star this repository. Or even better, [buy me a coffee!](https://ko-fi.com/bigsoulja)
