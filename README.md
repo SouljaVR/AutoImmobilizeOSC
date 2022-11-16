@@ -62,7 +62,7 @@ If you see neither of the above working, it probably means OSC isnt working. Che
 
 - This **IS** Quest Compatible, however you only need to add this to the PC variant of your avatar. It will show for Quest users too. It also shows for your fallback avatar, so you dont need to be quest compatible at all for these benefits. This will not work on Quest-only avatars however (unless you can find a way to trigger the `LeftThumbStick` parameter on Quest.)
 
-- While in an immobilized state, you cannot rotate your view left/right with the right controller joystick. You can easily combat this by resting your thumb on the left joystick while trying to turn, it becomes second nature after a while. OVR Playspace turning also works fine. You could also add extra conditions to my system that check for the `RightThumbStick` too, but I prefer it the way it is for better consistency. I tend to play with my right stick a lot.
+- While in an immobilized state, you cannot rotate your view left/right with the right controller joystick. You can easily combat this by resting your thumb on the left joystick while trying to turn, it becomes second nature after a while. OVR Playspace turning also works fine. You could also add extra conditions to my system that check for the `RightThumbStick` too, but I personally prefer it the way it is for better consistency. I tend to play with my right stick a lot.
 
 - You may modify the system and/or add it to any avatar including sold avatars, however you must leave my name in the submenu as it currently is. Please do not claim this as your own work.
 
