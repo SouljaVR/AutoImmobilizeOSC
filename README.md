@@ -1,6 +1,8 @@
 # AutoImmobilizeOSC
 Fixes remote IK jitter issue in VRChat when using half-body/full-body tracking.
 
+[**DOWNLOAD LATEST VERSION**](https://github.com/SouljaVR/AutoImmobilizeOSC/releases/download/1.0.0/AutoImmobilize.By.BigSoulja.v1.0.0.unitypackage)
+
 ## AutoImmobilizeOSC In Action:
 
 This is the networked view just to be clear. **NOT LOCAL**. Everyone sees you like this without my prefab. Under 20 ping for both players.
