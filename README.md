@@ -3,7 +3,7 @@ Fixes remote IK jitter issue in VRChat when using half-body/full-body tracking.
 
 ## AutoImmobilizeOSC In Action:
 
-![image](https://user-images.githubusercontent.com/97592971/202194701-0da6bba6-596b-4701-8eb4-aa9ca34c8bfb.png)![image](https://user-images.githubusercontent.com/97592971/202194735-032b81fd-4e4c-4327-9b0e-ef1f5c2d0154.png)
+![image](https://github.com/SouljaVR/AutoImmobilizeOSC/blob/main/AutoImmobilizeOFF_ExampleOpti.gif)![image](https://github.com/SouljaVR/AutoImmobilizeOSC/blob/main/AutoImmobilizeON_ExampleOpti.gif)
 
 ## How To Install:
 
@@ -35,11 +35,11 @@ You can use [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager)
 
 Enable the 'Auto Immobilize Toggle' on the left side of the menu. If it is working correctly, the immobilize icon on the right will toggle itself off when your finger rests on the joystick of your controller/joystick is moved. This allows your avatar to freely move around as normal. But you will be in an immobilized state when your finger is not touching/moving the left controller joystick.
 
-![image](https://user-images.githubusercontent.com/97592971/202196804-32e181b9-067b-46bc-8a03-216eccd15074.png)
+![image](https://github.com/SouljaVR/AutoImmobilizeOSC/blob/main/AutoImmobilize_ExampleOpti.gif)
 
 If this is working, you should also check your avatar debug menu and ensure `Locomotion` is disabling itself when your finger is not moving/resting on the left controller joystick. If for some reason it isnt working like below, it may be conflicting with another system on your avatar that controls `VRC Animator Locomotion Control`. You can try moving the layers for my system right under the base layer on both controllers to fix this.
 
-![image](https://user-images.githubusercontent.com/97592971/202197524-88670253-05df-42e0-8eb6-74b7da402b6b.png)
+![image](https://github.com/SouljaVR/AutoImmobilizeOSC/blob/main/Locomotion_test_ExampleOpti.gif)
 
 ##Things to note/Drawbacks
 
