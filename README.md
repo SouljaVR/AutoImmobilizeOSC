@@ -1,5 +1,5 @@
 # AutoImmobilizeOSC
-Fixes remote IK jitter issue in VRChat when using half-body/full-body tracking.
+Fixes [remote IK jitter issue in VRChat](https://feedback.vrchat.com/vrchat-ik-20/p/network-jitter-with-ik) when using half-body/full-body tracking.
 
 [**DOWNLOAD LATEST VERSION**](https://github.com/SouljaVR/AutoImmobilizeOSC/releases/download/1.0.0/AutoImmobilize.By.BigSoulja.v1.0.0.unitypackage)
 
