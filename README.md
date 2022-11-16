@@ -1,2 +1,52 @@
 # AutoImmobilizeOSC
-Fixes remote IK jitter issue in VRChat when using half-body/full-body tracking
+Fixes remote IK jitter issue in VRChat when using half-body/full-body tracking.
+
+## AutoImmobilizeOSC In Action:
+
+![image](https://user-images.githubusercontent.com/97592971/202194701-0da6bba6-596b-4701-8eb4-aa9ca34c8bfb.png)![image](https://user-images.githubusercontent.com/97592971/202194735-032b81fd-4e4c-4327-9b0e-ef1f5c2d0154.png)
+
+## How To Install:
+
+1. Import the Unity package into your Unity avatar project. Download is available under releases.
+2. Merge `Locomotion Controller` to the existing base controller of your avatar. If your avatar doesnt have one, get one, and merge this to it. If you add this controller directly it will break desktop/half body walking animations. You can use WetCat's LocomotionFix or GoGo Locomotion by Franada as a base.
+3. Merge `FX Controller` with your existing FX Controller. If your avatar doesnt have one, you are fine to add the controller to the avatar directly.
+
+You can use [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) by VRLabs or [Controller Editor](https://dreadrith.gumroad.com/l/CEditor) By Dreadrith to merge controllers with ease.
+
+4. Add the following parameters to your avatars VRC Parameters:
+
+![image](https://user-images.githubusercontent.com/97592971/202193385-9ca8a054-4883-4558-b5e9-2c7f35cc4704.png)
+
+`AutoImmobilize` - Default State = False (Saved Parameter)
+
+`LeftThumbStick` - Default State = False (Unsaved Parameter) (OSC Parameter controlled by ThumbParamsOSC)
+
+`immobilize` - Default State = False (Unsaved Parameter)
+
+5. Add the 'AutoImmobilizeMainMenu' expression menu to your avatars menu.
+6. Avatar setup is done. Now you will need to download 'ThumbParamsOSC' by 'I5UCC'. [Download Here](https://github.com/I5UCC/VRCThumbParamsOSC)
+7. Ensure 'ThumbParamsOSC' is sending bools for the left joystick of your controller. It is not necessary to send any other parameters. Read the documentation for ThumbParamsOSC to see how to do this. By default, the app will work fine without extra configuration, but its better to only send necessary data over OSC to avoid hitting bandwidth limits. Especially necessary if using with other OSC applications.
+
+![image](https://user-images.githubusercontent.com/97592971/202195547-ea515d34-1202-4c78-9586-ab62edeee1d9.png)
+
+8. Enable OSC in VRChat (Open expressions wheel > Options > OSC > Enable OSC)
+
+## How to test if it works:
+
+Enable the 'Auto Immobilize Toggle' on the left side of the menu. If it is working correctly, the immobilize icon on the right will toggle itself off when your finger rests on the joystick of your controller/joystick is moved. This allows your avatar to freely move around as normal. But you will be in an immobilized state when your finger is not touching/moving the left controller joystick.
+
+![image](https://user-images.githubusercontent.com/97592971/202196804-32e181b9-067b-46bc-8a03-216eccd15074.png)
+
+If this is working, you should also check your avatar debug menu and ensure `Locomotion` is disabling itself when your finger is not moving/resting on the left controller joystick. If for some reason it isnt working like below, it may be conflicting with another system on your avatar that controls `VRC Animator Locomotion Control`. You can try moving the layers for my system right under the base layer on both controllers to fix this.
+
+![image](https://user-images.githubusercontent.com/97592971/202197524-88670253-05df-42e0-8eb6-74b7da402b6b.png)
+
+##Things to note/Drawbacks
+
+- This **IS** Quest Compatible, however you only need to add this to the PC variant of your avatar. It will show for Quest users too. It also shows for your fallback avatar, so you dont need to be quest compatible at all for these benefits. This will not work on Quest-only avatars however (unless you can find a way to trigger the `LeftThumbStick` parameter on Quest.)
+
+- While in an immobilized state, you cannot rotate your view left/right with the right controller joystick. You can easily combat this by resting your thumb on the left joystick while trying to turn, it becomes second nature after a while. OVR Playspace turning also works fine. You could also add extra conditions to my system that check for the `RightThumbStick` too, but I prefer it the way it is for better consistency. I tend to play with my right stick a lot.
+
+- You may modify the system and/or add it to any avatar including sold avatars, however you must leave my name in the submenu as it currently is. Please do not claim this as your own work.
+
+If you need any help with this, feel free to message me on Discord. BigSoulja#8888
