@@ -58,6 +58,8 @@ If you see neither of the above working, it probably means OSC isnt working. Che
 
 - You can also **manually** immobilize yourself by turning off the 'Auto Immobilze Toggle' on the left, and just toggling the icon on the right manually yourself.
 
+- Immobilization may not work with *some* avatar setups if `Locomotion Animations` are enabled. But if you're using full-body, why would you use this anyway? You can disable this in the VRChat quick menu IK settings.
+
 - This **IS** Quest Compatible, however you only need to add this to the PC variant of your avatar. It will show for Quest users too. It also shows for your fallback avatar, so you dont need to be quest compatible at all for these benefits. This will not work on Quest-only avatars however (unless you can find a way to trigger the `LeftThumbStick` parameter on Quest.)
 
 - While in an immobilized state, you cannot rotate your view left/right with the right controller joystick. You can easily combat this by resting your thumb on the left joystick while trying to turn, it becomes second nature after a while. OVR Playspace turning also works fine. You could also add extra conditions to my system that check for the `RightThumbStick` too, but I prefer it the way it is for better consistency. I tend to play with my right stick a lot.
