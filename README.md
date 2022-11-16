@@ -78,7 +78,7 @@ If you see neither of the above working, it probably means OSC isnt working. Che
 
 If you need any help with this, feel free to message me on Discord. BigSoulja#8888
 
-If this helped you and you want to show appreciation, feel free to star this repository. Or even better, [buy me a coffee!](https://ko-fi.com/bigsoulja)
+If this helped you and you want to show appreciation, feel free to star this repository. Or you could [buy me a coffee!](https://ko-fi.com/bigsoulja) Anything is really appreciated.
 
 ## Credits:
 
