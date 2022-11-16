@@ -47,7 +47,7 @@ If this is working, you should also check your avatar debug menu and ensure `Loc
 
 ![image](https://github.com/SouljaVR/AutoImmobilizeOSC/blob/main/Locomotion_test_ExampleOpti.gif)
 
-You can also **manually* immobilize yourself by turning off the 'Auto Immobilze Toggle' on the left, and just toggling the icon on the right manually yourself.
+You can also **manually** immobilize yourself by turning off the 'Auto Immobilze Toggle' on the left, and just toggling the icon on the right manually yourself.
 
 ## Things to note/Drawbacks
 
