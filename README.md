@@ -3,7 +3,7 @@ Fixes remote IK jitter issue in VRChat when using half-body/full-body tracking.
 
 ## AutoImmobilizeOSC In Action:
 
-This is the networked view just to be clear. **NOT LOCAL**. Everyone sees you like this without my prefab.
+This is the networked view just to be clear. **NOT LOCAL**. Everyone sees you like this without my prefab. Under 20 ping for both players.
 
 ![image](https://github.com/SouljaVR/AutoImmobilizeOSC/blob/main/AutoImmobilizeOFF_ExampleOpti.gif)![image](https://github.com/SouljaVR/AutoImmobilizeOSC/blob/main/AutoImmobilizeON_ExampleOpti.gif)
 
