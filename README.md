@@ -33,6 +33,8 @@ You can use [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager)
 
 8. Enable OSC in VRChat (Open expressions wheel > Options > OSC > Enable OSC)
 
+9. Profit??
+
 ## How to use/Test if it works:
 
 Enable the 'Auto Immobilize Toggle' on the left side of the menu. If it is working correctly, the immobilize icon on the right will toggle itself off when your finger rests on the joystick of your controller/joystick is moved. This allows your avatar to freely move around as normal. But you will be in an immobilized state when your finger is not touching/moving the left controller joystick.
@@ -45,7 +47,7 @@ If this is working, you should also check your avatar debug menu and ensure `Loc
 
 You can also **manually* immobilize yourself by turning off the 'Auto Immobilze Toggle' on the left, and just toggling the icon on the right manually yourself.
 
-##Things to note/Drawbacks
+## Things to note/Drawbacks
 
 - This **IS** Quest Compatible, however you only need to add this to the PC variant of your avatar. It will show for Quest users too. It also shows for your fallback avatar, so you dont need to be quest compatible at all for these benefits. This will not work on Quest-only avatars however (unless you can find a way to trigger the `LeftThumbStick` parameter on Quest.)
 
