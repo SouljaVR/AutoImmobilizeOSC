@@ -16,7 +16,7 @@ https://user-images.githubusercontent.com/104001796/164468165-bcc211b1-a9a5-4429
 ## How To Install:
 
 1. Import the Unity package into your Unity avatar project. Download is available under releases.
-2. Merge `Locomotion Controller` to the existing base controller of your avatar. If your avatar doesnt have one, get one, and merge this to it. If you add this controller directly it will break desktop/half body walking animations. You can use WetCat's LocomotionFix or GoGo Locomotion by Franada as a base.
+2. Merge `Locomotion Controller` to the existing base controller of your avatar. If your avatar doesn't have one, get one, and merge this to it. If you add this controller directly it will break desktop/half body walking animations. You can use WetCat's LocomotionFix or GoGo Locomotion by Franada as a base.
 3. Merge `FX Controller` with your existing FX Controller. If your avatar doesnt have one, you are fine to add the controller to the avatar directly.
 
 You can use [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) by VRLabs or [Controller Editor](https://dreadrith.gumroad.com/l/CEditor) By Dreadrith to merge controllers with ease.
