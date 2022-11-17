@@ -70,6 +70,8 @@ If you see neither of the above working, it probably means OSC isnt working. Che
 
 - While in an immobilized state, you cannot rotate your view left/right with the right controller joystick. You can easily combat this by resting your thumb on the left joystick while trying to turn, it becomes second nature after a while. OVR Playspace turning also works fine. You could also add extra conditions to my system that check for the `RightThumbStick` too, but I personally prefer it the way it is for better consistency. I tend to play with my right stick a lot.
 
+- Pointed out by 'Kung' (VRC Team), "If you turn 180 in playspace and then locomote, remote users will see a quick springing of the player root catching up to the new orientation while tweening. In local view it won't be visible."
+
 - You may modify the system and/or add it to any avatar including sold avatars, however you must leave my name in the submenu as it currently is. Please do not claim this as your own work.
 
 ## What if my joystick touch capacitance is broken?
