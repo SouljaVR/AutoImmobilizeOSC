@@ -9,7 +9,7 @@ This is the networked view just to be clear. **NOT LOCAL**. Everyone sees you li
 
 ![image](https://github.com/SouljaVR/AutoImmobilizeOSC/blob/main/AutoImmobilizeOFF_ExampleOpti.gif)![image](https://github.com/SouljaVR/AutoImmobilizeOSC/blob/main/AutoImmobilizeON_ExampleOpti.gif)
 
-Credit to [Natsumi-sama](https://github.com/Natsumi-sama) for below video:
+Credit to [Natsumi-sama](https://github.com/Natsumi-sama) for below video. Left is local view, right is how others see them:
 
 https://user-images.githubusercontent.com/104001796/164468165-bcc211b1-a9a5-4429-bbce-ff79ba20a231.mp4
 
